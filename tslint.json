@@ -1,0 +1,44 @@
+{
+    "extends": [],
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**/*.ts",
+            "coverage/lcov-report/*.js"
+        ]
+    },
+    "defaultSeverity": "warning",
+    "rules": {
+        "no-console": false,
+        "no-eval": true,
+        "no-trailing-whitespace": false,
+        "no-unused-variable": false,
+        "no-unused-expression": false,
+        "no-import-side-effect": false,
+        "no-var-keyword": true,
+        "max-classes-per-file": false,
+        "ordered-imports": false,
+        "import-sources-order": false,
+        "no-shadowed-variable": false,
+        "named-imports-order": false,
+        "prefer-const": false,
+        "interface-name": false,
+        "no-empty": false,
+        "member-access": false,
+        "object-literal-sort-keys": false,
+        "quotemark": [
+            false,
+            "single",
+            "avoid-escape"
+        ],
+        "indent": [
+            true,
+            "spaces",
+            2
+        ],
+        "semicolon": [
+            true,
+            "always",
+            "ignore-interfaces"
+        ]
+    }
+}
